@@ -1,0 +1,7 @@
+1/14/22 - Begin working with basic ncurses functions and features like movement and refreshing
+1/15/22 - Start developing editor by setting up main ncurses editor window
+1/16/22 - Accept input using wgetch
+1/18/22 - Map out how to organize file contents as an array and how to navigate array when editing/moving around the editor
+1/20/22 - Finish implementing simple file edits (appending letters, digits, and deleting). User can use arrow keys. Still need to resolve how to work with files with more lines than the terminal window
+1/22/22 - create display functions that interact with arrow keys to track which line of the file is at the top of the editor to allow for scrolling. 
+1/23/22 - Finish terminal windows. Implement commands using forking. Used unnamed pipes and dup to reroute exec output to be read. This way, I can access the output and use the same strategy from yesterday to allow for scrolling
